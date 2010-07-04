@@ -1,19 +1,19 @@
 == AkText
- This plugin adds helpful methods on the texts.
- Here are the followings methods available.
- - Calculating the Levenshtein distance
+This plugin adds helpful methods on the texts.
+Here are the followings methods available.
+- Calculating the Levenshtein distance
 
 == Example
- Calculating the Levenshtein distance
+Calculating the Levenshtein distance
   String.levenshtein("str1", "str2")  => 1
   String.levenshtein("str1", "str1")  => 0
   String.levenshtein("str1", "str11") => 1
   "str".levenshtein_with("test42")	=> 2
 
 == TODO
- Add some tests
+Add some tests
 
 == Bugs and Feedback
- If you discover any bugs or want to drop a line, feel free to create an issue on GitHub.
+If you discover any bugs or want to drop a line, feel free to create an issue on GitHub.
 
 Copyright (c) 2010 Florian Bertholin (florian.bertholin@gmail.com), released under the MIT license
