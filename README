@@ -1,6 +1,6 @@
 AkText
 ======
-This plugin add some usefull stuff with texts.
+This plugin add some usefull stuff dealing with texts.
 	- Calculate levenshtein distance
 
 Example
@@ -11,4 +11,4 @@ Example
 	String.levenshtein("str1", "str11") => 1
 	"str".levenshtein_with("test42")	=> 2
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 Florian Bertholin (florian.bertholin@gmail.com), released under the MIT license
