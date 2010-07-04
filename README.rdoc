@@ -11,7 +11,7 @@ Calculating the Levenshtein distance
   "str".levenshtein_with("test42")	=> 2
 
 == TODO
-Add some tests
+
 
 == Bugs and Feedback
 If you discover any bugs or want to drop a line, feel free to create an issue on GitHub.
