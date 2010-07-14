@@ -5,12 +5,16 @@ class String
 	String.levenshtein(self, s2)
   end
 
-  def self.levenshtein(s1, s2)
+  def self.levenshtein(s1, s2, params = {})
+    options = {:case_sensitive => true }
+    options.merge!(params)   
     if $KCODE =~ /^U/i
       unpack_rule = 'U*'
     else
       unpack_rule = 'C*'
     end
+    s2.downcase! if options[:case_sensitive] == false
+    s1.downcase! if options[:case_sensitive] == false
     s = s1.unpack(unpack_rule)
     t = s2.unpack(unpack_rule)
     n = s.length
