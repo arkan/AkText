@@ -10,6 +10,10 @@ Calculating the Levenshtein distance
   String.levenshtein("str1", "str11") => 1
   "str".levenshtein_with("test42")	=> 2
 
+By default, case sensitive if activated.
+It's possible to deactivated by passing case_sensitive => false as third argument
+   String.levenshtein("str1", "str11", :case_sensitive => false)
+
 == TODO
 
 
